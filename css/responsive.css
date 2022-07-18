@@ -1,0 +1,161 @@
+/*
+   Olio Theme Responsive Design
+*/
+@media (max-width: 1170px) {
+    .hero-moc{
+        right: 50px;
+    }
+    .swiper-container{
+        width: 70%;
+    }
+}
+@media (max-width: 1024px) {
+    .hero-moc{
+        right: 0;
+    }
+    .hero-section{
+        height: 650px;
+    }
+    .hero-section:before{
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-padding{ padding: 15px; }
+    .feature_list,
+    .about_content {
+        padding: 0;
+    } 
+    .hero_mockup{
+        background-position: 120% center;
+    }
+    ul.nav > li > a {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    .hero-moc{
+        display: none;
+    }
+    .promo-content{
+        padding: 0;
+    }
+    .content-mockups{ display: none; }
+    .content-info{
+        padding-bottom: 65px;
+        padding-top: 0;
+    }
+    .download-btn a{
+        margin-right: 0px;
+        padding: 14px 10px;
+        font-size: 10px;
+    }
+    .download-content h2{
+        font-size: 24px;
+    }
+    .download-content{
+        padding: 0;
+    }
+    .hero-section{
+        height: 570px;
+    }
+    .swiper-container{
+        width: 260px;
+    }
+    .swiper-container .swiper-slide{ text-align: center; }
+    .swiper-container .swiper-slide img,
+    .swiper-container .swiper-slide-active img{ width: 80%!important; }
+    .swiper-container .swiper-next, 
+    .swiper-container .swiper-prev{ display: none; }
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    h1{
+        font-size: 30px!important;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .mock-hide,
+    p br{
+        display: none;
+    }
+    .xs-d-none{
+        display: none;
+    }
+    .padding{
+        padding: 60px 0;
+    }
+    .xs-padding{
+    	padding: 15px;
+    }
+    .navbar-brand{
+        padding: 11px 0;
+    }
+    .header-btn,
+    .menu-wrap ul.nav{
+        display: none;
+    }
+    .slicknav_menu {
+        display:block;
+    }
+    .content-info{
+        padding-bottom: 0;
+    }
+    .download-content{
+        text-align: center;
+    }
+    
+    
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 520px CSS ---- */
+@media all and (max-width: 520px) {
+    .subscribe-form{ width: 100%; }
+    .download-content h2{
+        font-size: 20px;
+    }
+    .download-btn a:first-child{
+        margin-bottom: 10px;
+    }
+    .social-link li{
+        margin: 0;
+    }
+}
+/* ---- End of max-width 520px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	
+}
+/* ---- End of max-width 380px CSS ---- */
